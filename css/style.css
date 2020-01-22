@@ -1,0 +1,75 @@
+body {
+    background-image: url(../img/fond.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#conteneur {
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    background: #fff;
+}
+
+/* header */
+header {
+    height: 100px;
+    background: url(../img/logo.png) no-repeat left;
+}
+
+header h1 {
+    font-size: 2.6em;
+    font-style: oblique;
+    padding-left: 30px;
+}
+
+header .boutique p {
+    color: #ff99cc;
+    font-size: 0.9em;
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 35px;
+}
+
+header .boutique {
+    width: 350px;
+    float: left;
+    height: 100%;
+    line-height: 5px;
+    margin-left: 30px;
+}
+
+header .aide {
+    width: 300px;
+    float: left;
+    height: 100%;
+}
+
+header .compte {
+    width: 200px;
+    float: left;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+/* nav */
+nav {
+    height: 60px;
+    background: #33ccff;
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 20px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Display: inline et display inline-block</title>
+    <style>
+        body {
+            background: bisque;
+        }
+
+        main {
+            width: 600px;
+            background: #fff;
+            margin: 0 auto;
+        }
+
+        main p {
+            /* display: inline; */
+            display: inline-block;
+            /* width: 200px; */
+            width: 190px;
+            padding: 5px;
+        }
+
+        .orange {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1><code>display: inline;</code> et <code>display inline-block;</code></h1>
+        <!-- les commentaires vides sont là pour gérer l'espace blanc généré par la propriété display inline-block; ne pas les enlever -->
+        <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolor itaque architecto veritatis odio commodi, ullam quia non ipsa et error doloribus. Neque possimus eaque eligendi aliquid officiis impedit sint!</p><!--  --><p class="orange">2. Error, cum officia. Dolorum qui vero cumque quaerat optio velit. Fugit explicabo debitis, molestias inventore ex recusandae modi fugiat, itaque quaerat eos voluptates, dignissimos provident quos enim! Dolorem, consequatur quod?</p><!--  --><p>3. At a sit labore soluta accusamus aliquam tenetur, laudantium temporibus ipsam quasi qui, tempore omnis debitis eligendi pariatur molestias quas quis dolore aliquid, necessitatibus aut ratione eum! Itaque, sit culpa!</p>
+        <a href="https://www.alsacreations.com/astuce/lire/1432-display-inline-block-espaces-indesirables.html">display inline block et l'espace blanc</a>
+    </main>
+    
+</body>
+</html>

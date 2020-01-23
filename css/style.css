@@ -14,13 +14,14 @@ body {
 /* header */
 header {
     height: 100px;
-    background: url(../img/logo.png) no-repeat left;
+    background: url(../img/logo.png) no-repeat left top;
+    margin-left: 10px;
 }
 
 header h1 {
     font-size: 2.6em;
     font-style: oblique;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 header .boutique p {
@@ -43,12 +44,63 @@ header .aide {
     width: 300px;
     float: left;
     height: 100%;
+    line-height: 1px;
+}
+
+header .aide h2 {
+    color: #33ccff;
+    font-weight: lighter;
+}
+
+header .aide figcaption {
+    position:absolute;
+    top: 12px;
+    left: 45px;
+    color: #33ccff;
+    font-weight: bold;
+}
+     
+header .aide figure {
+    position: relative;
+}
+
+header .aide p {
+    font-size: 0.9em;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
 }
 
 header .compte {
-    width: 200px;
-    float: left;
-    height: 100%;
+    width: 270px;
+    float: right;
+    height: 95%;
+    background: #33ccff;
+    color: #fff;
+    line-height: 2px;
+}
+
+header .compte p {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+header .compte hr {
+    color: #fff;
+}
+
+header .compte figcaption {
+    position:absolute;
+    top: 25px;
+    left: 60px;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+header .compte figure {
+    margin: auto 0;
+    position: relative;
 }
 
 .clear {
@@ -73,3 +125,40 @@ nav li a {
     text-decoration: none;
 }
 
+/* sous-section */
+main .sous-section, main .sous-section2 {
+    float: left;
+    height: 180px;
+    
+}
+
+main .sous-section {
+    width: 250px;
+}
+
+main .sous-section2 {
+    width: 500px;
+}
+
+main .sous-section h4, main .sous-section2 h4 {
+    color: #33ccff;
+}
+
+/* footer */
+footer {
+    height: 60px;
+    background: #33ccff;
+    text-align: center;
+    
+}
+
+footer li {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li a {
+    color: #fff;
+    text-decoration: none;
+}

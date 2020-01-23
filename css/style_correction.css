@@ -13,6 +13,20 @@ body {
     box-shadow: 1px 1px 12px lightgrey;
 }
 
+/* des fonds de couleurs  */
+
+/* .rose {
+    background: pink;
+}
+
+.kaki {
+    background: darkkhaki;
+} 
+
+.bleu {
+    background: dodgerblue;
+} */
+
 /* header */
 header {
     height: 100px;
@@ -26,20 +40,20 @@ header h1 {
     padding-left: 20px;
 }
 
-header .boutique p {
-    color: #ff99cc;
-    font-size: 0.9em;
-    font-weight: lighter;
-    font-style: italic;
-    padding-left: 35px;
-}
-
 header .boutique {
     width: 350px;
     float: left;
     height: 100%;
     line-height: 5px;
     margin-left: 30px;
+}
+
+header .boutique p {
+    color: #ff99cc;
+    font-size: 0.9em;
+    font-weight: 100;
+    font-style: italic;
+    padding-left: 35px;
 }
 
 header .aide {
@@ -65,7 +79,7 @@ header .aide figcaption {
     color: #33ccff;
     font-weight: bold;
 }
-     
+
 header .aide p {
     font-size: 0.9em;
     font-weight: lighter;
@@ -92,17 +106,17 @@ header .compte hr {
     color: #fff;
 }
 
+header .compte figure {
+    margin: auto 0;
+    position: relative;
+}
+
 header .compte figcaption {
     position:absolute;
     top: 25px;
     left: 60px;
     font-size: 0.9em;
     font-weight: lighter;
-}
-
-header .compte figure {
-    margin: auto 0;
-    position: relative;
 }
 
 .clear {
@@ -118,9 +132,9 @@ nav {
 
 nav li {
     display: inline;
-    text-decoration: none;
-    color: #fff;
-    padding-left: 20px;
+    /* color: #fff; */
+    padding: 40px;
+    /* padding-left: 20px; */
 }
 
 nav li a {
@@ -128,47 +142,15 @@ nav li a {
     text-decoration: none;
 }
 
-.active {
-    background: lightgrey;
+nav li .active {
+    background: pink;
+    padding: 22px;
+    line-height: 60px;
 }
 
-/* sous-section */
-main .sous-section, main .sous-section2 {
-    box-sizing: border-box;
-    float: left;
-    height: 180px;
-    font-size: 0.9em;
-    font-weight: lighter;
-    padding: 0 10px;
-    
-}
-
-main .sous-section {
-    width: 250px;
-}
-
-main .sous-section2 {
-    width: 500px;
-    border-left: 1px solid darkgrey;
-    border-right: 1px solid darkgrey;
-    height: 140px;
-}
-
-main .sous-section h4, main .sous-section2 h4 {
-    color: #33ccff;
-}
-
-main .sous-section figcaption {
-    position:absolute;
-    top: 10px;
-    left: 60px;
-    /* font-size: 0.9em;
-    font-weight: lighter; */
-}
-
-main .sous-section figure {
-    margin: auto 0;
-    position: relative;
+/* main */
+#bandeau {
+    height: 333px;
 }
 
 /* section 3 .last */
@@ -210,20 +192,5 @@ main .sous-section figure {
 /* footer */
 footer {
     height: 50px;
-    line-height: 50px;
-    background: #33ccff;
-    /* margin: 0 auto; */
-    text-align: center;
-    
 }
 
-footer li {
-    display: inline;
-    text-decoration: none;
-    color: #fff;
-}
-
-footer li a {
-    color: #fff;
-    text-decoration: none;
-}

@@ -7,9 +7,10 @@ body {
 #conteneur {
     margin: 0 auto;
     width: 1000px;
-    height: 500px;
+    /* height: 500px; */
     background: #fff;
     border: 1px solid grey;
+    box-shadow: 5px -5px inset;
 }
 
 /* header */
@@ -169,25 +170,37 @@ main .sous-section figure {
 /* section 3 .last */
 .last {
     float: left;
-    width: 300px;
-    height: 150px;
+    width: 320px;
+    height: 180px;
     border: 1px solid grey;
     border-radius: 1em;
 }
 
 .last h4 {
+    margin-top: 0;
+
     background-color: darkgrey;
     height: 30px;
+    text-align: center;
 }
 
-.last .image, .last .bloc {
-    justify-content: space-around;
+.last img, .last p {
+    display: inline-block;
+    
 }
 
-.last .bloc {
-    font-size: 0.7em;
+.last p {
+    font-size: 0.6em;
     font-weight: lighter;
     width: 180px;
+}
+
+.last a {
+    display: block;
+    color: #33ccff;
+    text-decoration: none;
+    position: absolute;
+    /* bottom: 0; */
 }
 
 /* footer */

@@ -10,7 +10,7 @@ body {
     /* height: 500px; */
     background: #fff;
     border: 1px solid grey;
-    box-shadow: 5px -5px inset;
+    box-shadow: 2px 2px 14px lightgrey;
 }
 
 /* header */
@@ -126,6 +126,7 @@ nav li {
 nav li a {
     color: #fff;
     text-decoration: none;
+    width: 130px;
 }
 
 .active {
